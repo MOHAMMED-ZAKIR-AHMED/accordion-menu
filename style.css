@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-color:  #07141d;
+}
+#Accordion{
+    margin: 40px auto;
+    width:600px;
+}
+#Accordion li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+#Accordion li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #c20000;
+}
+#Accordion li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: #333;
+}
+#Accordion label + input[type="radio"]{
+    display: none;
+}
+#Accordion .content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.7s;
+}
+#Accordion label + input[type="radio"]:checked + .content{
+    max-height: 400px;
+}
+h2{
+    width: 200px;
+    color: #fffF;
+    margin: 0px 44%;
+    padding-top: 80px;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+h2:hover{
+    text-decoration: underline;
+    text-orientation: sideways;
+}
