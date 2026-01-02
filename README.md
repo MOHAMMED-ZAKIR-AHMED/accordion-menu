@@ -38,6 +38,9 @@ Use the accordion menu with smooth animations
 
 HTML5
 
+<video src="https://github.com/user-attachments/assets/f075df35-f147-4340-b103-b699838d6d63" controls="controls" muted loop></video>
+
+
 CSS3
 
 🤝 Contributing
